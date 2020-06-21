@@ -1,0 +1,21 @@
+{
+  "name": "nand2tetris",
+  "version": "1.0.0",
+  "description": "Repository with projects from the nand2tetris course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanprq/nand2tetris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanprq/nand2tetris/issues"
+  },
+  "homepage": "https://github.com/juanprq/nand2tetris#readme",
+  "dependencies": {}
+}
