@@ -4,8 +4,6 @@ const commandTypes = require('./command-types');
  * Parser class is in charge of the command parsing from a string that represents VM code.
  */
 class Parser {
-  currentPosition = 0;
-
   /**
    * Constructor function, initialize the parser object in order to start doing its job.
    *
@@ -63,3 +61,5 @@ class Parser {
     // return the argument 2 of the vm current command
   }
 }
+
+module.exports = Parser;
